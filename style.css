@@ -1,0 +1,64 @@
+body
+{
+    margin: 0px auto;
+    width:60%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+.maindiv
+{
+    margin-top: 5%;
+    padding: 10px;
+    border:10px rgb(215, 143, 35);
+    box-shadow: 2px 2px 2px 2px #adadb3;
+}
+.userform
+{
+    background: rgb(226, 213, 207);
+    margin: 18px;
+    padding: 2px;
+    border-radius: 10px;
+    border:10px rgb(255, 153, 0);
+
+}
+.label
+{
+    font-size: 24px;
+}
+.input
+{
+width: 64%;
+height: 24px;
+}
+.formgroup
+{
+    margin-bottom: 15px;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(244, 238, 238);
+}
+.button
+{
+        padding: 23px 0px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        background: rgb(255, 255, 255);
+        
+}
+.avatar {
+    vertical-align: middle;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+  }
+.date
+{
+    margin-bottom: 1px;
+    display:flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+    border-radius: 20%;
+}
